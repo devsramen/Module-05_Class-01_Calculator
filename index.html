@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="calculator">
+        <form action="#">
+            <!-- <input type="text" class="screen"> -->
+            <h1 id="screenData" class="screenData">0</h1>
+        </form>
+        <div class="buttons">
+            <button type="button" class="btn btn_yellow" data-num="+" onclick="Plus()">+</button>
+            <button type="button" class="btn btn_yellow" data-num="-" onclick="Minus()">-</button>
+            <button type="button" class="btn btn_yellow" data-num="*" onclick="Multiplication()">*</button>
+            <button type="button" class="btn btn_yellow" data-num="/" onclick="Divide()">/</button>
+            
+            <button type="button" class="btn btn_grey" data-num="9" onclick="Nine()">9</button>
+            <button type="button" class="btn btn_grey" data-num="8" onclick="Eight()">8</button>
+            <button type="button" class="btn btn_grey" data-num="7" onclick="Seven()">7</button>
+            <button type="button" class="btn btn_grey" data-num="6" onclick="Six()">6</button>
+            <button type="button" class="btn btn_grey" data-num="5" onclick="Five()">5</button>
+            <button type="button" class="btn btn_grey" data-num="4" onclick="Four()">4</button>
+            <button type="button" class="btn btn_grey" data-num="3" onclick="Three()">3</button>
+            <button type="button" class="btn btn_grey" data-num="2" onclick="Tow()">2</button>
+            <button type="button" class="btn btn_grey" data-num="1" onclick="One()">1</button>
+            <button type="button" class="btn btn_grey" data-num="0" onclick="Zero()">0</button>
+            <button type="button" class="btn btn_grey" data-num="." onclick="Dot()">.</button>
+
+            <button type="button" class="btn btn_equal" >=</button>
+            <button type="button" class="btn btn_green" >M+</button>
+            <button type="button" class="btn btn_green" >M-</button>
+            <button type="button" class="btn btn_clear" >CE</button>
+            <button type="button" class="btn btn_clearAll" >AC</button>
+        </div>
+    </section>
+    
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5e82e4ce8d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
